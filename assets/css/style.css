@@ -74,3 +74,8 @@
     left: 50%;
     transform: translate(-50%,-50%)
   }
+  .top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
