@@ -150,3 +150,53 @@
 #email{
   width: 100%;
 }
+
+/* formatting for the images */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+.top-right{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.top-image{
+  opacity: 70%;
+  
+}
+.logo{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 8px;
+  left: 16px;
+  border-radius: 10%;
+}
+.footer-content{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+  
+}
+.centertxt{
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px black;
+}
